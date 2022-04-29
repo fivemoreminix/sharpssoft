@@ -1,0 +1,49 @@
+#title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.app-card-badges-container {
+    margin: 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.app-card-icon {
+    border-radius: 30%;
+    margin-top: 10px;
+}
+
+.app-card-title {
+    font-size: 2em;
+    font-weight: 600;
+    color: #027BC1;
+    margin: 10px 0 10px 0;
+}
+
+.app-card {
+    border-radius: 10px;
+    border: 3px dashed grey;
+    padding: 15px;
+    margin: 0 0 20px 15px;
+    display: inline-block;
+    width: 260px;
+    text-align: center;
+}
+
+.caption {
+    color: #303030;
+    font-size: 20px;
+    margin: 5px 5px 50px;
+}
+
+h1 {
+    font-family: 'Libre Bodoni', serif;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 50px;
+}
