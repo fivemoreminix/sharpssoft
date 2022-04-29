@@ -11,26 +11,40 @@
                 margin-bottom: 10px;
             }
 
+            .app-card-badges-container {
+                margin: 10px 0 0;
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
+            }
+
+            .app-card-icon {
+                border-radius: 30%;
+                margin-top: 10px;
+            }
+
             .app-card-title {
                 font-size: 2em;
                 font-weight: 600;
                 color: #A63A50;
-                margin: 10px;
+                margin: 10px 0 10px 0;
             }
 
             .app-card {
                 border-radius: 10px;
-                border: 3px solid #A63A50;
+                border: 3px dashed grey;
                 padding: 15px;
-                margin: 0px 0px 20px 15px;
+                margin: 0 0 20px 15px;
                 display: inline-block;
+                width: 260px;
+                text-align: center;
             }
 
             .caption {
                 color: #303030;
                 font-size: 20px;
-                margin: 5px;
-                margin-bottom: 50px;
+                margin: 5px 5px 50px;
             }
 
             h1 {
@@ -45,14 +59,18 @@
     </head>
     <body>
         <h1 id="title">Sharps Soft</h1>
-        <p class="caption">A web and app development company.</p>
-        <h2>Our Software</h1>
+        <p class="caption">A software development company.</p>
+        <h2>Our Work</h1>
         <div class="app-card">
+            <img class="app-card-icon" src="assets/EMSProtocolsIcon.png" width="65%" />
             <h2 class="app-card-title">EMS Protocols</h2>
-            <p>in development</p>
-            <a href="https://emsprotocolsapp.com/">emsprotocolsapp.com</a>
-            <br><a>Google Play Store</a>
-            <br><a>Apple App Store</a>
+            <p>A digital protocol book for emergency medical professionals. Cut the labor out of indexing protocols, and save time for critical patients.</p>
+            <a href="https://emsprotocolsapp.com/" target="_blank">Web app</a>
+            <div class="app-card-badges-container">
+                <img src="assets/app-store-badge.svg" height="40" />
+                <img src="assets/google-play-badge.png" height="59" />
+            </div>
+<!--            <a href="https://emsprotocolsapp.com/">emsprotocolsapp.com</a>-->
         </div>
         <p>For assistance with our software or for general inquiries:<br><a href="mailto:support@sharps.software">support@sharps.software</a></p>
         <p>Luke Wilson<br><a href="mailto:thelukaswils@gmail.com">thelukaswils@gmail.com</a><br>+1 (870) 919-8348</p>
